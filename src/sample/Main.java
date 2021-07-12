@@ -16,7 +16,7 @@ public class Main extends Application {
             stage.setScene(scene);
             Image icon = new Image("icon.png");
             stage.getIcons().add(icon);
-            stage.setTitle("Process Productivity Metrics Calculator");
+            stage.setTitle("Software Quality Metrics Calculator");
             stage.show();
         } catch(Exception e) {
             e.printStackTrace();
