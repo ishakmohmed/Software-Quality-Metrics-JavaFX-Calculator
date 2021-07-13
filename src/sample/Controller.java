@@ -29,6 +29,14 @@ public class Controller {
     @FXML
     private TextField NRP;
     @FXML
+    private TextField NYSERH;
+    @FXML
+    private TextField NYFH;
+    @FXML
+    private TextField NYVITFH;
+    @FXML
+    private TextField NYTFH;
+    @FXML
     private Label DevP;
     @FXML
     private Label FDevP;
@@ -44,14 +52,7 @@ public class Controller {
     private Label VITA;
     @FXML
     private Label TUA;
-    @FXML
-    private TextField NYSERH;
-    @FXML
-    private TextField NYFH;
-    @FXML
-    private TextField NYVITFH;
-    @FXML
-    private TextField NYTFH;
+
 
     public void calculatePPM(ActionEvent event) {
         try {
